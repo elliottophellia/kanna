@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/Eilaluth/Kanna#readme",
   "dependencies": {
-    "discord-anti-spam": "^2.5.8",
     "discord.js": "^12.5.1"
   }
 }
