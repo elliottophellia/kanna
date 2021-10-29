@@ -1,0 +1,26 @@
+{
+  "name": "kannabot",
+  "version": "1.0.0",
+  "description": "simple bot to banned people",
+  "main": "kanna.js",
+  "scripts": {
+    "test": "node kanna.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eilaluth/Kanna.git"
+  },
+  "keywords": [
+    "Kanna"
+  ],
+  "author": "Eilaluth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eilaluth/Kanna/issues"
+  },
+  "homepage": "https://github.com/Eilaluth/Kanna#readme",
+  "dependencies": {
+    "discord-anti-spam": "^2.5.8",
+    "discord.js": "^12.5.1"
+  }
+}
