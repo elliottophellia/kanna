@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Eilaluth/Kanna#readme",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.3"
   }
 }
