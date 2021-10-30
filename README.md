@@ -7,6 +7,8 @@
 
 Kanna Kamui (カンナカムイ) also known as Kanna Kobayashi (小林 カンナ Kobayashi Kanna), is one of the main characters in Miss Kobayashi's Dragon Maid and is one of the main characters in Miss Kobayashi's Dragon Maid: Kanna's Daily Life. Kanna is a young female dragon, who is exiled from her world as a consequence of her pranks.
 
+<br/>
+
 # Kanna Config
 /Kanna/botconfig/config.json
 ```javascript
@@ -23,3 +25,12 @@ Kanna Kamui (カンナカムイ) also known as Kanna Kobayashi (小林 カンナ
 Kanna is bot designed for Anti Raid and Badword, Kanna can automatically ban someone who trying to spamming/raiding your server in second!
 
 But if you think banned is too far, then you can easily modify the code by your self!
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+# Contributing
+
+We welcome any contributions that improve the quality of our projects.
+
+# License
+The scripts and documentation in this project are released under the [MIT License](https://github.com/Eilaluth/Kanna/blob/main/LICENSE)
