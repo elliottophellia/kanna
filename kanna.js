@@ -36,9 +36,9 @@ client.on("message", message => {
 });
 
 const usersMap = new Map();
-const LIMIT = 4;
-const TIME = 10000;
-const DIFF = 2000;
+const LIMIT = 4; // limit message/diff
+const TIME = 10000; // timeout
+const DIFF = 2000; // diff every one message
 
 client.on('message', message => {
   const BannedRaid = new MessageEmbed()
@@ -52,6 +52,7 @@ client.on('message', message => {
   .setDescription(`User <@${message.author.id}>, You got banned from LYGC+!\n\nIf you thing this was mistakes then DM me EiLALUTH#5752`)
   .setImage('https://static.wikia.nocookie.net/maid-dragon/images/f/f7/Kanna_is_mad.png')
   if(message.author.bot) return;
+  // if you use this then someone who has administrator role will be ignored from mapping
   //if(message.member.permissions.has("ADMINISTRATOR")) return;
   if(usersMap.has(message.author.id)) {
     const userData = usersMap.get(message.author.id);
