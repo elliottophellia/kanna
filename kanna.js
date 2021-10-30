@@ -28,7 +28,11 @@ client.on("message", message => {
     .setDescription(`User <@${message.author.id}> got banned for raid attempt!`)
     .setImage('https://static.wikia.nocookie.net/maid-dragon/images/f/f7/Kanna_is_mad.png')
 
-    if (BannedWords.some(word => message.toString().toLowerCase().trim().match(/\w+|\s+|[^\s\w]+/g) !== null && message.toString().toLowerCase().trim().match(/\w+|\s+|[^\s\w]+/g).includes(word))) { message.delete().catch(e => console.error("Couldn't delete message.")); message.author.send(BannedWordsz) };
+  if(BannedWords.some(word => message.content.toLowerCase().includes(word))){
+message.delete();
+message.channel.send(BannedWordsz);
+}
+
     
     if (message.content.includes("@everyone")) { message.guild.members.get(message.author.id).ban({ reason : 'Raid attempt!'}).catch(e => console.error("Couldn't ban him/her.")); message.channel.send(BannedRaid) };
     
